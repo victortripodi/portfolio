@@ -1,0 +1,11 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p { 
+        padding: 1.5rem;
+        color: $primary-color
+    }
+}

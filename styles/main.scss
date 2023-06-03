@@ -1,0 +1,19 @@
+// defaults 
+@import 'components/colors';
+@import 'components/variables';
+@import 'components/_defaults.scss';
+@import 'components/fonts';
+
+//customs for all elements
+@import 'components/animations';
+
+
+// components
+@import 'components/images';
+@import 'components/navbar';
+@import 'components/landing-section';
+@import 'components/about';
+@import 'components/footer';
+@import 'components/lists';
+@import 'components/blog';
+@import 'components/contact';

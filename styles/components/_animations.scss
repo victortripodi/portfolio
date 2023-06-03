@@ -1,0 +1,22 @@
+.link-button:hover {
+    background-color: whitesmoke;
+    color: $background-color;
+    box-shadow: 1px 1px 1px 0 rgba(196, 193, 193, 0.94), 2px 2px 2px 0 rgba(196, 193, 193, 0.54)
+}
+
+
+.logo:hover {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+
+
+// @keyframes shake {
+//     from {
+//         transform: rotate(-20deg);
+//     }
+//     to {
+//         transform: rotate(+20deg);
+//     }
+//     }

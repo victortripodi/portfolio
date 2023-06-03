@@ -1,0 +1,149 @@
+.about-container {
+
+    h1,
+    h2 {
+        padding: 1.2rem 0rem;
+    }
+
+    p {
+        padding-bottom: 0.5rem;
+    }
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 80%;
+    }
+}
+
+.projects-info-rigth {
+    @media(min-width: $breakpoint) {
+        flex-direction: row !important;
+
+        p {
+            margin-left: -50px;
+            background-color: $secondary-color-background;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            text-align: right;
+        }
+    }
+}
+
+.projects-info-left {
+    @media(min-width: $breakpoint) {
+        flex-direction: row-reverse !important;
+
+        p {
+            margin-right: -50px;
+            background-color: $secondary-color-background;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            text-align: left;
+            width: unset;
+        }
+    }
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $secondary-color;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    .project-desktop-title {
+        display: none;
+    }
+
+    div {
+        z-index: 1;
+    }
+
+    @media(min-width: $breakpoint) {
+
+        .project-mobile-title {
+            display: none;
+        }
+
+        .project-desktop-title {
+            display: flex;
+        }
+    }
+    img {
+    max-width: 80%;
+    // padding-bottom: 1rem;
+}
+}
+
+img {
+    padding-bottom: 1rem;
+}
+
+
+h3 {
+    width: 100%;
+    // padding-bottom: 1rem;
+}
+
+.about-list-skills {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+        border: solid 0.5px rgb(220, 213, 213);
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+
+.project-title {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    .line {
+        height: 1px;
+        background-color: white;
+        display: flex;
+        flex: 1;
+        margin-left: 15px;
+    }
+}
+
+.external-link {
+    margin-left: 0.5rem;
+    height: 15px;
+    width: 15px;
+    padding-bottom: 0;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+
+}
