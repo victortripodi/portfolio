@@ -1,11 +1,17 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    p { 
-        padding: 1.5rem;
-        color: $primary-color
+    @media(min-width: $breakpoint) {
+        justify-content: center;
+        align-items: center;
+    }
+
+    div {
+        max-width: 600px;
+    }
+
+    p {
+        padding: 1.5rem 0;
     }
 }

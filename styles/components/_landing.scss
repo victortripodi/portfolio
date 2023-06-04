@@ -1,0 +1,32 @@
+.landing-section {
+    display: flex;
+    justify-content: center;
+
+    @media(min-width: $breakpoint) {
+        margin-top: 10rem;
+    }
+}
+
+.landing-home {
+    max-width: 800px;
+
+    h1 {
+        font-size: 1rem;
+        color: $secondary-color;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        padding: 0.4rem 0;
+        color: $primary-color;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        color: $secondary-color
+    }
+
+    p {
+        padding: 0.5rem 0 2rem;
+    }
+}

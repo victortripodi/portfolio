@@ -5,15 +5,15 @@
     padding: 1rem 0;
     list-style-type: none;
     max-width: 300px;
-    
+    font-weight: 600;
+
     li:not(:last-child) {
         margin-right: 3rem;
-      }
-    li{
-     
-        animation-name: shake;
-        animation-duration: 0.5s;
-        animation-iteration-count: infinite;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        
     }
 }
 
